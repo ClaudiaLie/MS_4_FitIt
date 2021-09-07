@@ -53,7 +53,10 @@ Registration and User Account needs are reached by using Django Allauth, an open
 ### Fonts
 ### Icons
 For the logo I have created a design with https://www.designhill.com/tools/logo-maker 
+All the images are copyright free from: https://unsplash.com/
 ### Colors
+I have been researching the psychology of colors to find a color scheme that would be percieved as fun, inviting and pleasant for any visitor.
+A really good source to get inspired was https://www.canva.com/colors/color-meanings/
 ### Styling
 
 # Project Features
