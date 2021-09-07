@@ -46,17 +46,20 @@ The application uses Python, Django, JavaScript and CSS.
 ## Skeleton Plane
 
 ## User stories
+Registration and User Account needs are reached by using Django Allauth, an open source package
 
 ## Design 
 
 ### Fonts
 ### Icons
+For the logo I have created a design with https://www.designhill.com/tools/logo-maker 
 ### Colors
 ### Styling
 
 # Project Features
 
 # Technologies Used
+
 
 # Testing
 
