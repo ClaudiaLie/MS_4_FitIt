@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "61392930dec64119e65a851f"
+  },
+  "pk": 1,
+  "model": "products.category",
+  "fields": {
+    "name": "activewear",
+    "friendly_name": "Activewear"
+  }
+},{
+  "_id": {
+    "$oid": "6139294ddec64119e65a978a"
+  },
+  "pk": 2,
+  "model": "products.category",
+  "fields": {
+    "name": "supplements",
+    "friendly_name": "Supplements"
+  }
+},{
+  "_id": {
+    "$oid": "613929a6dec64119e65ad1fe"
+  },
+  "pk": 3,
+  "model": "products.category",
+  "fields": {
+    "name": "gear",
+    "friendly_name": "Gear"
+  }
+},{
+  "_id": {
+    "$oid": "61393455dec64119e6634a16"
+  },
+  "pk": 4,
+  "model": "products.category",
+  "fields": {
+    "name": "proteins",
+    "friendly_name": "Proteins"
+  }
+},{
+  "_id": {
+    "$oid": "61393468dec64119e6635ad8"
+  },
+  "pk": 5,
+  "model": "products.category",
+  "fields": {
+    "name": "vitamins",
+    "friendly_name": "Vitamins"
+  }
+},{
+  "_id": {
+    "$oid": "61393478dec64119e66369a0"
+  },
+  "pk": 6,
+  "model": "products.category",
+  "fields": {
+    "name": "fibers",
+    "friendly_name": "Fibers"
+  }
+},{
+  "_id": {
+    "$oid": "6139348ddec64119e6637dc4"
+  },
+  "pk": 7,
+  "model": "products.category",
+  "fields": {
+    "name": "yoga",
+    "friendly_name": "Yoga"
+  }
+},{
+  "_id": {
+    "$oid": "613934addec64119e6639800"
+  },
+  "pk": 8,
+  "model": "products.category",
+  "fields": {
+    "name": "weights",
+    "friendly_name": "Weights"
+  }
+},{
+  "_id": {
+    "$oid": "613934cadec64119e663ad7a"
+  },
+  "pk": 9,
+  "model": "products.category",
+  "fields": {
+    "name": "totalbody",
+    "friendly_name": "Total Body"
+  }
+}]

@@ -1,0 +1,256 @@
+[{
+  "_id": {
+    "$oid": "61392748dec64119e659236e"
+  },
+  "pk": 1,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5002820069",
+    "name": "Nike 3-pk. Performance Crew Socks - Boys",
+    "description": "Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
+    "price": 19.99,
+    "category": 1,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "DP0510201317010521M.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "613927aedec64119e65972a9"
+  },
+  "pk": 2,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5004650050",
+    "name": "Jacques Mort 2-pk. Short-Sleeve Leotard - Girls",
+    "description": "Shell get plenty of use from this versatile short-sleeve leotard from Jacques Moret.  nylon washable imported",
+    "price": 34.99,
+    "category": 1,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0919201417043014M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "DP0919201417043014M.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "613927fbdec64119e659abd5"
+  },
+  "pk": 3,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5005820197",
+    "name": "Nike Therma-FIT Pullover Hoodie - Boys 8-20",
+    "description": "Add a cozy layer to any game-ready style with this insulated performance hoodie, featuring a pullover design and Therma-FIT fabric for warmth. Therma-FIT microfiber fleece fabric keeps you warm and insulated mesh-lined hood for breathable coverage long sleeves ribbed cuffs and hem kangaroo pocket polyester washable imported",
+    "price": 48.99,
+    "category": 1,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1008201517035763M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "DP1008201517035763M.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61392824dec64119e659c774"
+  },
+  "pk": 4,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5005870183",
+    "name": "Made For Life Mesh Jacket - Plus",
+    "description": "Layer our moisture-wicking mesh jacket over a tee or tank for breathable comfort all day long. Quick-Dri moisture-wicking fabric helps keep you dry front pockets approx. 27\" - 28\" length polyester washable imported",
+    "price": 52.99,
+    "category": 1,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0724201517031934M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "DP0724201517031934M.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "6139286adec64119e659fa05"
+  },
+  "pk": 5,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006291997",
+    "name": "Xersion Colorblock Yoga Shorts - Girls 7-16 and Plus",
+    "description": "From the yoga studio to the couch, these yoga shorts will keep her comfy during all her daily activities and feature cool contrasted side panels for an extra bit of flair.  black/aqua/green: cotton/spandex gray/pink/orange: cotton/polyester/spandex washable imported",
+    "price": 19.99,
+    "category": 1,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201517043586M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "DP1119201517043586M.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61392893dec64119e65a15a4"
+  },
+  "pk": 6,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006470681",
+    "name": "Champion Vapor Muscle Tank - Plus",
+    "description": "Keep cool and dry during your workout in our muscle tank, made from Champion Vapor moisture-wicking fabric and featuring Fresh IQ technology for odor protection. Champion Vapor technology Fresh IQ technology targeted ventilation for breathability chafe-resistant flatlock seams reflective detail for visibility crewneck polyester washable imported",
+    "price": 28.99,
+    "category": 1,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0217201617084849M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "DP0217201617084849M.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "613928bfdec64119e65a31b0"
+  },
+  "pk": 7,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006790372",
+    "name": "Made for Life Secretly Slender Capri Leggings - Plus",
+    "description": "Add comfort and versatility to your wardrobe by incorporating these mid-rise capri leggings into the mix. 21\" inseam cotton/polyester/spandex washable imported",
+    "price": 46.99,
+    "category": 1,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0316201621115243C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "DP0316201621115243C.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393869dec64119e6669d1e"
+  },
+  "pk": 8,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006790356",
+    "name": "Optimum Nutrition ON Gold Standard Whey Protein",
+    "description": "Muscle Building Powder With Naturally Occurring Glutamine and Amino Acids, Double Rich Chocolate, 29 Servings, 899 g",
+    "price": 23.99,
+    "category": 4,
+    "image_url": "https://m.media-amazon.com/images/I/61LEAhDf+iL._AC_SL1000_.jpg",
+    "image": "61LEAhDf+iL._AC_SL1000_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "6139391cdec64119e6673730"
+  },
+  "pk": 9,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006795687",
+    "name": "Optimum Nutrition Serious Mass Protein Powder High Calorie",
+    "description": "Mass Gainer with Vitamins, Creatine and Glutamine, Chocolate, 8 Servings, 2.73 kg",
+    "price": 30.9,
+    "category": 4,
+    "image_url": "https://m.media-amazon.com/images/I/71xWviVxKGL._AC_SL1500_.jpg",
+    "image": "71xWviVxKGL._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "613939eddec64119e667e27b"
+  },
+  "pk": 10,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006795687",
+    "name": "Optimum Nutrition Amino Energy Pre Workout Powder",
+    "description": "Energy Drink with Beta Alanine, Vitamin C, Caffeine and Amino Acids, Strawberry Lime, 30 Servings, 270 g",
+    "price": 15.95,
+    "category": 5,
+    "image_url": "https://m.media-amazon.com/images/I/61LiahWcUhS._AC_SL1000_.jpg",
+    "image": "61LiahWcUhS._AC_SL1000_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393ad1dec64119e668a5d6"
+  },
+  "pk": 11,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006795687",
+    "name": "Raw Organic Fiber",
+    "description": "Garden of Life Raw Organic Fibre is a soothing and nourishing blend of both soluble and insoluble fibre from organic sprouted seeds, grains and legumes, Raw Organic Fibre has no harsh fibres such as psyllium, which can be punishing to sensitive colons. Certified Vegan & Certified Gluten Free by NSF.",
+    "price": 39.99,
+    "category": 6,
+    "image_url": "https://m.media-amazon.com/images/I/810F0lFvpaL._AC_SL1500_.jpg",
+    "image": "810F0lFvpaL._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393bd0dec64119e6698e0b"
+  },
+  "pk": 12,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006796557",
+    "name": "Toplus Yoga Mat",
+    "description": "Yoga Fitness Mat with Carry Straps, 183 x 61 x 0.6 cm.",
+    "price": 18.69,
+    "category": 7,
+    "image_url": "https://m.media-amazon.com/images/I/71h1ODnMGBL._AC_SL1500_.jpg",
+    "image": "71h1ODnMGBL._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393c90dec64119e66a2d21"
+  },
+  "pk": 13,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006796557",
+    "name": "Yoga Block (Set of 2) and Yoga Strap",
+    "description": "Yoga Block (Set of 2) and Yoga Strap Includes Descriptive E-book for Beginners Sturdy Brick & Lightweight Eva Foam Block Support Deepen Poses, Provides Strength & Stability for Pilates Practice.",
+    "price": 11.89,
+    "category": 7,
+    "image_url": "https://m.media-amazon.com/images/I/71T6koScCiL._AC_SL1500_.jpg",
+    "image": "71T6koScCiL._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393dd8dec64119e66b3d93"
+  },
+  "pk": 14,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp5006796578",
+    "name": "Neoprene Ankle Weights Strap 0.5kg-3kg",
+    "description": "Pair Legs Weight For Running-Jogging-Walking- Aerobics-Exercise-Gymnastics-Fitness.",
+    "price": 20.99,
+    "category": 8,
+    "image_url": "https://m.media-amazon.com/images/I/715YXAThI3S._AC_SL1500_.jpg",
+    "image": "715YXAThI3S._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393ed1dec64119e66c1ffa"
+  },
+  "pk": 15,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp50067849320",
+    "name": "Physio Dumbbells Set",
+    "description": "Dumbbells pair with Neoprene Coating, Comfortable grip, Sweat-resistant and Anti-roll Technology dumbbell set.",
+    "price": 9.99,
+    "category": 8,
+    "image_url": "https://m.media-amazon.com/images/I/71DBs6J5FlL._AC_SL1500_.jpg",
+    "image": "71DBs6J5FlL._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61393f97dec64119e66cc7a1"
+  },
+  "pk": 16,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp50067843903",
+    "name": "Jump Rope Soft Memory Foam Handle",
+    "description": "Tangle-free Adjustable Rope & Rapid Ball Bearings Fitness Workouts Fat Burning Exercises Boxing - Spare Rope Length Adjuster Included.",
+    "price": 5.99,
+    "category": 9,
+    "image_url": "https://m.media-amazon.com/images/I/71ChLY+tLcL._AC_SL1500_.jpg",
+    "image": "71ChLY+tLcL._AC_SL1500_.jpg"
+  }
+},{
+  "_id": {
+    "$oid": "61394040dec64119e66d86eb"
+  },
+  "pk": 17,
+  "model": "products.product",
+  "fields": {
+    "sku": "pp500678u4i576",
+    "name": "Resistance Bands Set",
+    "description": "Exercise Bands,Fitness Exercise Loop Bands With 5 Different Resistance.",
+    "price": 6.99,
+    "category": 9,
+    "image_url": "https://m.media-amazon.com/images/I/61xqRlpqxbS._AC_SL1500_.jpg",
+    "image": "61xqRlpqxbS._AC_SL1500_.jpg"
+  }
+}]
