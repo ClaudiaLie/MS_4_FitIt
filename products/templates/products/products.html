@@ -18,6 +18,20 @@
                 <hr class="w-50 mb-1">
             </div>
         </div>
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 mx-auto">
+            <form method="GET" action="{% url 'products' %}">
+                <div class="input-group w-100">
+                    <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search in our store">
+                    <div class="input-group-append">
+                        <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#store-nav" aria-controls="store-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,6 +41,7 @@
                 {% include 'includes/store-nav.html' %}
             </nav>
         </div>
+        
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2"></div>
