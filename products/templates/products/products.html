@@ -88,7 +88,7 @@
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                                            <!-- If the prod has a category we want to display it in the description  -->
+                                            <!-- If the product has a category we want to display it in the description  -->
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
