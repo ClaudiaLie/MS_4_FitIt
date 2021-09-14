@@ -70,6 +70,10 @@ body {
 	z-index: -1;
 }
 
+.nav-tabs {
+    border-bottom: 0px
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
