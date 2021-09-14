@@ -6,8 +6,8 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -26,7 +26,7 @@
                 <a href="{% url 'products' %}?category=proteins" class="dropdown-item">Proteins</a>
                 <a href="{% url 'products' %}?category=vitamins" class="dropdown-item">Vitamins</a>
                 <a href="{% url 'products' %}?category=fibers" class="dropdown-item">Fibers</a>
-                <a href="{% url 'products' %}?category=proteins, vitamins, fibers" class="dropdown-item">All Supplements</a>
+                <a href="{% url 'products' %}?category=proteins,vitamins,fibers" class="dropdown-item">All Supplements</a>
             </div>
         </li>
 
@@ -37,7 +37,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=yoga" class="dropdown-item">Yoga</a>
                 <a href="{% url 'products' %}?category=weights" class="dropdown-item">Weights</a>
-                <a href="{% url 'products' %}?category=totalbody, gear" class="dropdown-item">Total Body</a>
+                <a href="{% url 'products' %}?category=totalbody,gear" class="dropdown-item">Total Body</a>
             </div>
         </li>
     </ul>
