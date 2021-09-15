@@ -10,10 +10,11 @@ The application uses Python, Django, JavaScript and CSS.
   * [Structure Plane](#structure-plane)
   * [Database Architecture](#database-architecture)
   * [Skeleton Plane](#skeleton-plane)
+  * [Wireframes](#wireframes)
   * [User stories](#user-stories)
   * [Design](#design)
     + [Fonts](#fonts)
-    + [Icons](#icons)
+    + [Images](#images)
     + [Colors](#colors)
     + [Styling](#styling)
 - [Project Features](#project-features)
@@ -46,16 +47,37 @@ I have created my own fixtures with MongoDB following the Database structure in 
 
 ## Skeleton Plane
 
+## Wireframes
+The wireframes are created with ![Wireframe.cc](https://wireframe.cc/)
+
+**Homepage**
+![Home Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/homepage.jpg)
+
+**Store Page**
+![Store Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/store.jpg)
+
+**Shopping Bag**
+![Shopping Bag](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/shopping-bag.jpg)
+
+**Gym Classes Homepage**
+![Gym Classes Homepage](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/gym-classes-home.jpg)
+
+**Gym Class Page Detail**
+![Gym Class Page Detail](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/gym-class-page.jpg)
+
+**Subscription Page**
+![Subscription Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/subscription-page.jpg)
+
 ## User stories
 Registration and User Account needs are reached by using Django Allauth, an open source package
 
 ## Design 
 
 ### Fonts
-### Icons
-For the logo I have created a design with https://www.designhill.com/tools/logo-maker 
-All the images for the website backgrounds are copyright free from: https://unsplash.com/
-The images for the website store items are from Code Institute Boutique Ado Project and from Amazon.uk 
+### Images
+- All the images for the website backgrounds are copyright free from ![Unsplash](https://unsplash.com/)
+- The images for the website store items are from Code Institute Boutique Ado Project and from Amazon.uk
+
 ### Colors
 I have been researching the psychology of colors to find a color scheme that would be percieved as fun, inviting and pleasant for any visitor.
 A really good source to get inspired was https://www.canva.com/colors/color-meanings/
@@ -65,37 +87,30 @@ A really good source to get inspired was https://www.canva.com/colors/color-mean
 
 # Technologies Used
 
+**Core Coding**
+- HTML
+- CSS
+- Python
+- JavaScript
+**Integrations**
+- Django and Django Allauth
+- Bootstrap
+- Font Awesome
+- JQuery
+- Google Fonts
+**Database Management**
+- MongoDB Atlas
+- MongoDB Compass
+**Version Control, Storage and Hosting**
+- GitHub
+- GitPod
 
 # Testing
+- For python code testing I have been using pep8
+- For HTML validation I have used validatorW3
+- For CSS validation I have used jigsaw.W3
+- For responsiveness testing I have used Google DevTools
 
 # Deployment
 
 # Credits
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
