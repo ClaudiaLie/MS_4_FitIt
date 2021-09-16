@@ -67,6 +67,7 @@
                                 {% endif %}
                             </div>
                         </li>
+                        <!-- Highlight the bag icon when something has been added and update the total displayed -->
                         <li class="list-inline-item">
                             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                                 <div class="text-center">
