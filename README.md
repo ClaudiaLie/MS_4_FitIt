@@ -51,22 +51,22 @@ I have created my own fixtures with MongoDB following the Database structure in 
 The wireframes are created with ![Wireframe.cc](https://wireframe.cc/)
 
 **Homepage**
-![Home Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/homepage.jpg)
+![Home Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/homepage.jpg?raw=true)
 
 **Store Page**
-![Store Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/store.jpg)
+![Store Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/store.jpg?raw=true)
 
 **Shopping Bag**
-![Shopping Bag](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/shopping-bag.jpg)
+![Shopping Bag](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/shopping-bag.jpg?raw=true)
 
 **Gym Classes Homepage**
-![Gym Classes Homepage](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/gym-classes-home.jpg)
+![Gym Classes Homepage](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/gym-classes-home.jpg?raw=true)
 
 **Gym Class Page Detail**
-![Gym Class Page Detail](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/gym-class-page.jpg)
+![Gym Class Page Detail](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/gym-class-page.jpg?raw=true)
 
 **Subscription Page**
-![Subscription Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/master/media/readme_img/subscription-page.jpg)
+![Subscription Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/subscription-page.jpg?raw=true)
 
 ## User stories
 Registration and User Account needs are reached by using Django Allauth, an open source package
