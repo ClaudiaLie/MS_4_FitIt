@@ -15,26 +15,56 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <h2 class="logo-font mb-4">Subscription Plans</h2>
                 <hr>
             </div>
         </div>
+        <!--Subscription options buttons-->
+        <div class="card text-center">
+            <div class="card-header">
+                Day Pass
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Daily Boost</h5>
+                <p class="card-text">All activities available in the gym. Every day of the week between 06.00-16.00</p>
+                <a href="#" class="btn btn-primary">25$</a>
+            </div>
+            <div class="card-footer text-muted">
+                Terms and Conditions may apply 
+            </div>
+            </div>
+            <div class="card text-center">
+            <div class="card-header">
+                Monthly Subscription
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                Terms and Conditions may apply
+            </div>
+            </div>
+            <div class="card text-center">
+            <div class="card-header">
+                6 Months Subscription
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                Terms and Conditions may apply
+            </div>
+        </div>          
 
         <div class="row">
             <div class="col">
                 {% if bag_items %}
                     <div class="table-responsive rounded">
                         <table class="table table-sm table-borderless">
-                            <thead class="text-black">
-                                <tr>
-                                    <th scope="col">Product Info</th>
-                                    <th scope="col"></th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Qty</th>
-                                    <th scope="col">Subtotal</th>
-                                </tr>
-                            </thead>
-
                             {% for item in bag_items %}
                                 <tr>
                                     <td class="p-3 w-25">
@@ -61,11 +91,6 @@
                                     <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
                                     <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
-                                    {% if free_delivery_delta > 0 %}
-                                        <p class="mb-1 text-danger">
-                                            You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
-                                        </p>
-                                    {% endif %}
                                 </td>
                             </tr>
                             <tr>
