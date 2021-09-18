@@ -75,7 +75,7 @@ Registration and User Account needs are reached by using Django Allauth, an open
 
 ### Fonts
 ### Images
-- All the images for the website backgrounds are copyright free from ![Unsplash](https://unsplash.com/)
+- All the images for the website backgrounds are copyright free from [Unsplash](https://unsplash.com/)
 - The images for the website store items are from Code Institute Boutique Ado Project and from Amazon.uk
 
 ### Colors
