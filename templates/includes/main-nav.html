@@ -1,13 +1,15 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="all_classes_link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'gym_classes' %}" id="all_classes_link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Train
             </a>
             <div class="dropdown-menu" aria-labelledby="all-classes-link">
                 <a href="" class="dropdown-item">Yoga</a>
                 <a href="" class="dropdown-item ">Dance</a>
                 <a href="" class="dropdown-item">Body Building</a>
+                <div class="dropdown-divider"></div>
+                <a href="{% url 'gym_classes' %}" class="dropdown-item">All Trainings</a>
             </div>
         </li>
 
@@ -18,7 +20,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="supplements-link" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'prices' %}" id="supplements-link" aria-haspopup="true" aria-expanded="false">
                 Prices
             </a>
         </li>
