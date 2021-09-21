@@ -140,7 +140,7 @@
   "pk": 10,
   "model": "products.product",
   "fields": {
-    "sku": "pp5006795687",
+    "sku": "pp5006795688",
     "name": "Optimum Nutrition Amino Energy Pre Workout Powder",
     "description": "Energy Drink with Beta Alanine, Vitamin C, Caffeine and Amino Acids, Strawberry Lime, 30 Servings, 270 g",
     "price": 15.95,
@@ -155,7 +155,7 @@
   "pk": 11,
   "model": "products.product",
   "fields": {
-    "sku": "pp5006795687",
+    "sku": "pp5006795690",
     "name": "Raw Organic Fiber",
     "description": "Garden of Life Raw Organic Fibre is a soothing and nourishing blend of both soluble and insoluble fibre from organic sprouted seeds, grains and legumes, Raw Organic Fibre has no harsh fibres such as psyllium, which can be punishing to sensitive colons. Certified Vegan & Certified Gluten Free by NSF.",
     "price": 39.99,
@@ -170,7 +170,7 @@
   "pk": 12,
   "model": "products.product",
   "fields": {
-    "sku": "pp5006796557",
+    "sku": "pp5006796523",
     "name": "Toplus Yoga Mat",
     "description": "Yoga Fitness Mat with Carry Straps, 183 x 61 x 0.6 cm.",
     "price": 18.69,
