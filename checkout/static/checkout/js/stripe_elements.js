@@ -45,7 +45,7 @@ card.addEventListener('change', function (event) {
     }
 });
 
-// Handle form submit
+// Handle form submit, following the Stripe guide: https://stripe.com/docs/payments/accept-a-payment?platform=web&ui=elements
 var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
