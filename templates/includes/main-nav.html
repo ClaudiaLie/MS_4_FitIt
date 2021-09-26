@@ -5,9 +5,9 @@
                 Train
             </a>
             <div class="dropdown-menu" aria-labelledby="all-classes-link">
-                <a href="" class="dropdown-item">Yoga</a>
-                <a href="" class="dropdown-item ">Dance</a>
-                <a href="" class="dropdown-item">Body Building</a>
+                <a href="{% url 'yoga' %}" class="dropdown-item">Yoga</a>
+                <a href="{% url 'dance' %}" class="dropdown-item ">Dance</a>
+                <a href="{% url 'body_building' %}" class="dropdown-item">Body Building</a>
                 <div class="dropdown-divider"></div>
                 <a href="{% url 'gym_classes' %}" class="dropdown-item">All Trainings</a>
             </div>

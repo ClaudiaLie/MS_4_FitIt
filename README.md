@@ -48,7 +48,7 @@ I have created my own fixtures with MongoDB following the Database structure in 
 ## Skeleton Plane
 
 ## Wireframes
-The wireframes are created with ![Wireframe.cc](https://wireframe.cc/)
+The wireframes are created with [Wireframe.cc](https://wireframe.cc/)
 
 **Homepage**
 ![Home Page](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/homepage.jpg?raw=true)
