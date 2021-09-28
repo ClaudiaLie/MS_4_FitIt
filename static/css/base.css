@@ -6,7 +6,9 @@ body {
     background: url('/media/photo-1583454110551-21f2fa2afe61.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    margin: 0;
+    padding: 0;
+    color: black;
     font-family: 'Lato';
 }
 
@@ -19,8 +21,12 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
+/* Font shadow from: https://www.geeksforgeeks.org/css-font-border/*/
+h2.logo-font {
     text-transform: uppercase;
+    color: rgb(217, 183, 138);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .main-logo-link {
@@ -28,13 +34,13 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: #3C3637;
+    color: rgb(217, 183, 138);
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #3C3637;
     color: white;
 }
 
@@ -47,7 +53,7 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #3C3637;
     color: white !important;
 }
 
@@ -57,12 +63,12 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #3C3637;
     color: white;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #3C3637 !important;
 }
 
 .border-black {
@@ -70,7 +76,7 @@ body {
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #3C3637 !important;
 }
 
 .overlay {
@@ -108,6 +114,30 @@ a.category-badge > span.badge:hover {
 
 input[name='q']::placeholder {
     color: #aab7c4;
+}
+
+header.container-fluid.fixed-top {
+    background-color: #98A1A9;
+}
+
+h1.display-4.logo-font{
+    color: rgb(217, 183, 138);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+}
+
+footer.container-fluid {
+    background-color: #98A1A9;
+    min-height: calc(20vh - 10px);
+    margin: 0;
+    padding-top: 0px;
+    position: absolute;
+
+}
+
+a.link {
+    color: black;
 }
 
 /* ------------------------------- bootstrap toasts */
