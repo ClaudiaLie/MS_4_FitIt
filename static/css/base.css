@@ -24,7 +24,7 @@ body {
 /* Font shadow from: https://www.geeksforgeeks.org/css-font-border/*/
 h2.logo-font {
     text-transform: uppercase;
-    color: rgb(217, 183, 138);
+    color: #fb8b3c;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
@@ -35,7 +35,7 @@ h2.logo-font {
 
 .shop-now-button {
     background: #3C3637;
-    color: rgb(217, 183, 138);
+    color: #BBB7B9;
     min-width: 260px;
 }
 
@@ -54,7 +54,7 @@ h2.logo-font {
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: #3C3637;
-    color: white !important;
+    color: #fb8b3c !important;
 }
 
 .shop-now-button:hover,
@@ -64,7 +64,7 @@ h2.logo-font {
 .btn-black:active,
 .btn-black:focus {
     background: #3C3637;
-    color: white;
+    color: #fb8b3c;
 }
 
 .text-black {
@@ -117,18 +117,18 @@ input[name='q']::placeholder {
 }
 
 header.container-fluid.fixed-top {
-    background-color: #98A1A9;
+    background-color:#BBB7B9;
 }
 
 h1.display-4.logo-font{
-    color: rgb(217, 183, 138);
+    color: #fb8b3c;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     text-transform: uppercase;
 }
 
 footer.container-fluid {
-    background-color: #98A1A9;
+    background-color: #BBB7B9;
     min-height: calc(20vh - 10px);
     margin: 0;
     padding-top: 0px;
