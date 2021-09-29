@@ -208,6 +208,11 @@ a.link {
     overflow-y: auto;
 }
 
+#cards-classes-row {
+    width: 18rem;
+    margin-left: 20px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -295,4 +300,17 @@ a.link {
     body {
         height: calc(100vh - 116px);
     }
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 15rem;
+        margin-left: 25px;
+    }
+
+    #cards-classes-row {
+        margin-left: 1px;
+
+    }
+    
 }
