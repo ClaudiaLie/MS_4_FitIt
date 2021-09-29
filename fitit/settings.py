@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wzr_qqp3_^oqaj=h--v90u(sqp5h67z*zq$p1z#6nu!7hl#^^#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fit-it-claudia.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -124,12 +124,17 @@ WSGI_APPLICATION = 'fitit.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-   DATABASES = {
-        'default': {
-           'ENGINE': 'django.db.backends.sqlite3',
-           'NAME': BASE_DIR / 'db.sqlite3',
-       }
-   }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': (BASE_DIR / 'db.sqlite3'),
+        }
+    }
 
 # DATABASES = {
 #    'default': dj_database_url.parse('postgres://xsyvggirfysaxo:7885f31a3cd90971334883fd2f2f7a827f2127829cbdc88e56f94fc2d685e49e@ec2-54-74-156-137.eu-west-1.compute.amazonaws.com:5432/dfn9uci9kuhpe3')
