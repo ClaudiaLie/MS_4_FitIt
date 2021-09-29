@@ -1,1 +1,1 @@
-web gunicorn fit-it-claudia.wsgi:application
+web: gunicorn fit-it-claudia.wsgi:application
