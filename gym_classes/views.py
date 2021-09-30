@@ -23,5 +23,3 @@ def yoga(request):
     """ Return the yoga page """
 
     return render(request, 'gym_classes/yoga.html')
-
-
