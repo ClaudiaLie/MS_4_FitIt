@@ -1,7 +1,7 @@
 FitIt is the fourth and last project submission for the Full Stack Frameworks Milestone Project by Code Institute. 
 
-The website I have built is a fitness website, where any user can register or login with their account, subscribe to any course they would like to follow, purchase the gym merch, and take track of their progress and goals through a dedicated section.
-The application uses Python, Django, JavaScript and CSS.
+The project consists in a gym website, where any user can register or login with their account, subscribe to any subscription plan they prefer, purchase the gym merch, and take track of their purchases.
+The application uses Python, Django, JavaScript and CSS as main technologies.
 
 ## Table of Contents
 - [User Experience](#user-experience)
@@ -37,6 +37,7 @@ The application uses Python, Django, JavaScript and CSS.
 # User Experience
 
 ## Strategy Plane
+
 
 ## Scope Plane
 
