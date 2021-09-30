@@ -1,4 +1,6 @@
+# Fit It
 [Fit It Website](https://fit-it-claudia.herokuapp.com/)
+
 FitIt is the fourth and last project submission for the Full Stack Frameworks Milestone Project by Code Institute. 
 
 The project consists in a gym website, where any user can register or login with their account, subscribe to any subscription plan they prefer, purchase the gym merch, and take track of their purchases.
@@ -75,6 +77,7 @@ The wireframes are created with [Wireframe.cc](https://wireframe.cc/)
 ### Colors
 I have been researching the psychology of colors to find a color scheme that would be percieved as interesting, inviting and pleasant for any visitor.
 A really good source to get inspired was [Canva](https://www.canva.com/colors/color-meanings/) but I have decided to keep the color scheme of the main landing page image as follows:
+
 ![alt text](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/website_palette.jpg?raw=true)
 
 With an extra touch of orange #fb8b3c to symbolize strenght, power and energy.
