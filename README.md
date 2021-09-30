@@ -1,3 +1,4 @@
+[Fit It Website](https://fit-it-claudia.herokuapp.com/)
 FitIt is the fourth and last project submission for the Full Stack Frameworks Milestone Project by Code Institute. 
 
 The project consists in a gym website, where any user can register or login with their account, subscribe to any subscription plan they prefer, purchase the gym merch, and take track of their purchases.

@@ -316,7 +316,13 @@ a.link {
 
     }
     
-    .footer {
+    footer.container-fluid {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    footer.container-fluid {
         position: relative;
     }
 }
