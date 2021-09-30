@@ -132,7 +132,7 @@ footer.container-fluid {
     min-height: calc(20vh - 10px);
     margin: 0;
     padding-top: 0px !important;
-    position: fixed !important;
+    position: fixed;
     bottom: 0 !important;
 
 }
@@ -305,7 +305,7 @@ a.link {
         padding: .25rem .5rem !important;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 357px) {
     .card {
         width: 15rem;
         margin-left: 25px;
