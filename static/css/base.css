@@ -170,39 +170,6 @@ a.link {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
-.arrow-primary {
-    border-bottom-color: #007bff !important;
-}
-
-.arrow-secondary {
-    border-bottom-color: #6c757d !important;
-}
-
-.arrow-success {
-    border-bottom-color: #28a745 !important;
-}
-
-.arrow-danger {
-    border-bottom-color: #dc3545 !important;
-}
-
-.arrow-warning {
-    border-bottom-color: #ffc107 !important;
-}
-
-.arrow-info {
-    border-bottom-color: #17a2b8 !important;
-}
-
-.arrow-light {
-    border-bottom-color: #f8f9fa !important;
-}
-
-.arrow-dark {
-    border-bottom-color: #343a40 !important;
-}
-
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
@@ -212,15 +179,6 @@ a.link {
 #cards-classes-row {
     width: 18rem;
     margin-left: 20px;
-}
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
 }
 
 /* Allauth form formatting */
@@ -277,6 +235,15 @@ a.link {
 	color: #17a2b8; /* text-info */
 }
 
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -338,7 +305,7 @@ a.link {
         padding: .25rem .5rem !important;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 320px) {
     .card {
         width: 15rem;
         margin-left: 25px;

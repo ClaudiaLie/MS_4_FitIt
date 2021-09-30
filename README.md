@@ -76,7 +76,7 @@ I have been researching the psychology of colors to find a color scheme that wou
 A really good source to get inspired was [Canva](https://www.canva.com/colors/color-meanings/) but I have decided to keep the color scheme of the main landing page image as follows:
 ![alt text](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/website_palette.jpg?raw=true)
 
-### Styling
+With an extra touch of orange #fb8b3c to symbolize strenght, power and energy.
 
 # Technologies Used
 
