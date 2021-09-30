@@ -316,4 +316,7 @@ a.link {
 
     }
     
+    .footer {
+        position: relative;
+    }
 }
