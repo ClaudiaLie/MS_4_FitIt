@@ -113,9 +113,12 @@ With an extra touch of orange #fb8b3c to symbolize strenght, power and energy.
 - AWS
 
 # Testing
-- For python code testing I have been using pep8
-- For HTML validation I have used validatorW3
-- For CSS validation I have used jigsaw.W3
+
+A full testing file can be found [here.](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/readme/testing.md)
+
+- For python code validation I have been using [pep8 online](http://pep8online.com/)
+- For HTML validation I have used [validatorW3](https://validator.w3.org/)
+- For CSS validation I have used [jigsaw.W3](https://jigsaw.w3.org/css-validator/)
 - For responsiveness testing I have used Google DevTools
 
 # Deployment
