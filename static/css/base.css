@@ -127,22 +127,15 @@ h1.display-4.logo-font{
     text-transform: uppercase;
 }
 
-.container {
-    padding: 0;
-}
-
-.container-fluid {
-    margin-bottom: 50px;
+#prices-container, #product-container, #bag-container {
+    height: 90%;
 }
 
 #footer {
     background-color: #BBB7B9;
-    min-height: calc(20vh - 10px);
-    margin: 0;
-    padding-top: 0px !important;
+    min-height: 2.5rem;
     position: relative;
-    bottom: 0 !important;
-
+    bottom: 0;
 }
 
 a.link {
@@ -189,7 +182,7 @@ a.link {
 }
 
 #allauth-container {
-    margin-bottom: 100%;
+    height: 100%;
 }
 
 /* Allauth form formatting */
@@ -327,14 +320,5 @@ a.link {
         margin-left: 1px;
 
     }
-    
-    #footer {
-        position: relative !important;
-    }
-}
 
-@media screen and (max-width: 750px) {
-    #footer {
-        position: relative !important;
-    }
 }
