@@ -1,1 +1,1 @@
-web: gunicorn fitit.wsgi:application
+web gunicorn fitit.wsgi:application
