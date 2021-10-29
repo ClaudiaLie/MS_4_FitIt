@@ -6,6 +6,7 @@ body {
     background: url('/media/photo-1583454110551-21f2fa2afe61.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
+    min-height: calc(100vh - 80px);
     margin: 0;
     padding: 0;
     color: black;
@@ -104,6 +105,7 @@ a.category-badge > span.badge:hover {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    z-index: 1;
 }
 
 .btt-link,
@@ -128,11 +130,11 @@ h1.display-4.logo-font{
 }
 
 #prices-container, #bag-container {
-    margin-bottom: 20em;
+    margin-bottom: 27em;
 }
 
 #product-container {
-    margin-bottom: 12em;
+    margin-bottom: 28em;
 }
 
 #footer {
