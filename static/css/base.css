@@ -127,8 +127,12 @@ h1.display-4.logo-font{
     text-transform: uppercase;
 }
 
-#prices-container, #product-container, #bag-container {
-    height: 90%;
+#prices-container, #bag-container {
+    margin-bottom: 20em;
+}
+
+#product-container {
+    margin-bottom: 12em;
 }
 
 #footer {
@@ -178,7 +182,7 @@ a.link {
 }
 
 #cards-classes-row {
-    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 #allauth-container {
@@ -313,12 +317,6 @@ a.link {
 @media screen and (max-width: 320px) {
     .card {
         width: 15rem;
-        margin-left: 25px;
-    }
-
-    #cards-classes-row {
-        margin-left: 1px;
-
     }
 
 }
