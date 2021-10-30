@@ -35,7 +35,7 @@ h2.logo-font {
 
 .shop-now-button {
     background: #3C3637;
-    color: #BBB7B9;
+    color: #fb8b3c;
     min-width: 260px;
 }
 
@@ -137,7 +137,7 @@ h1.display-4.logo-font{
 }
 
 .page-footer {
-    background-color: #BBB7B9;
+    background-color: #BBB7B9 !important;
     min-height: 2.5rem;
     position: relative;
     bottom: 0;

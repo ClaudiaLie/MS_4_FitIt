@@ -8,14 +8,16 @@ The application uses Python, Django, JavaScript and CSS as main technologies.
 
 ## Table of Contents
 - [User Experience](#user-experience)
-  * [Strategy Plane](#strategy-plane)
-  * [Scope Plane](#scope-plane)
+    * [Strategy Plane](#strategy-plane)
+    * [Scope Plane](#scope-plane)
     * [User stories](#user-stories)
-  * [Skeleton Plane](#skeleton-plane)
-  * [Wireframes](#wireframes)
-  * [Design](#design)
-    + [Images](#images)
-    + [Colors](#colors)
+    * [Skeleton Plane](#skeleton-plane)
+    * [Wireframes](#wireframes)
+    * [Design](#design)
+        + [Images](#images)
+        + [Colors](#colors)
+- [Database Schema](#database-schema)
+    * [Data Models](#data-models)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -81,6 +83,15 @@ An excellent source to get inspired was [Canva](https://www.canva.com/colors/col
 ![alt text](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/website_palette.jpg?raw=true)
 
 With an extra touch of orange #fb8b3c to symbolize strength, power and energy.
+
+# Database Schema
+In the development of Fit It, I have used SQLite3 database as part of Django framework and Heroku PostGres to handle the database for the production version of the website.
+
+I have used [MongoDB](https://www.mongodb.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create and export my own fixtures of the products and categories.
+[Django’s authentication system](https://docs.djangoproject.com/en/3.1/ref/contrib/auth/) and [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html) are also integrated sets of Django and helped manage authentication, registration and account management.
+The models below are created with dbdiagram.io:
+
+### Data Models
 
 # Technologies Used
 
