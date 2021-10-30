@@ -6,7 +6,6 @@ body {
     background: url('/media/photo-1583454110551-21f2fa2afe61.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    min-height: calc(100vh - 80px);
     margin: 0;
     padding: 0;
     color: black;
@@ -137,7 +136,7 @@ h1.display-4.logo-font{
     margin-bottom: 28em;
 }
 
-#footer {
+.page-footer {
     background-color: #BBB7B9;
     min-height: 2.5rem;
     position: relative;

@@ -35,11 +35,11 @@ The website must be responsive for all devices and easy to navigate for everyone
 ### User stories
 ![User Stories](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/user-story.jpg?raw=true)
 
-Registration and User Account settings are statisfied by using Django Allauth, an open source integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+Registration and User Account settings are satisfied by using Django Allauth, an open source integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
 
 ## Skeleton Plane
 The website features a Homepage with a main navbar to navigate the main sections of the website: Train for trainings, Prices for subscription plans and Store for the merch. 
-- In the Homepage there is immediately a link to the subscription plans, to give to the expert users an efficent navigation.
+- In the Homepage there is immediately a link to the subscription plans, to give to the expert users an efficient navigation.
 - The Train page displays all the gym classes available, separated into main sections that can be navigated further if interested, and a calendar with the schedule of the weekly trainings.
 - The Prices page contains all the subscription plans briefly described, with a direct link to the product detail in the store page.
 - The Store page has its own secondary navigation bar, which regroup in main categories the products available into the store, and extends with a dropdown menu to the more specific items categories.
@@ -75,12 +75,12 @@ The wireframes are created with [Wireframe.cc](https://wireframe.cc/)
 - The images for the website store items are from Code Institute Boutique Ado Project and from Amazon.uk.
 
 ### Colors
-I have been researching the psychology of colors to find a color scheme that would be percieved as interesting, inviting and pleasant for any visitor.
-A really good source to get inspired was [Canva](https://www.canva.com/colors/color-meanings/) but I have decided to keep the color scheme of the main landing page image as follows:
+I have been researching the psychology of colors to find a color scheme that would be perceieved as interesting, inviting and pleasant for any visitor.
+An excellent source to get inspired was [Canva](https://www.canva.com/colors/color-meanings/) but I have decided to keep the color scheme of the main landing page image as follows:
 
 ![alt text](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/website_palette.jpg?raw=true)
 
-With an extra touch of orange #fb8b3c to symbolize strenght, power and energy.
+With an extra touch of orange #fb8b3c to symbolize strength, power and energy.
 
 # Technologies Used
 
@@ -114,7 +114,7 @@ With an extra touch of orange #fb8b3c to symbolize strenght, power and energy.
 
 # Testing
 
-A full testing file can be found [here.](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/readme/testing.md)
+A full manual testing file can be found [here.](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/readme/testing.md)
 
 - For python code validation I have been using [pep8 online](http://pep8online.com/)
 - For HTML validation I have used [validatorW3](https://validator.w3.org/)
@@ -122,7 +122,7 @@ A full testing file can be found [here.](https://github.com/ClaudiaLie/MS_4_FitI
 - For responsiveness testing I have used Google DevTools
 
 # Deployment
-Fit It has been created on Gitpod, with commits pushed directly to the GitHub repository. The project has been deployed to Heroku, which was syncronized to GitHub to update the live site.
+Fit It has been created on Gitpod, with commits pushed directly to the GitHub repository. The project has been deployed to Heroku, which was synchronized to GitHub to update the live site.
 The static files are stored in Amazon AWS and the payment infrastructure is managed by Stripe's software and APIs.
 
 ## GitHub
@@ -160,7 +160,7 @@ After creating a repository in Github and an account on Heroku, create a new app
 
     `$ python3 manage.py migrate`
 
-    After migrations have been applied you will need to reupload the fixtures to the heroku database using. 
+    After migrations have been applied you will need to re-upload the fixtures to the heroku database using. 
 
     `$ python3 manage.py loaddata categories`
     `$ python3 manage.py loaddata products`
