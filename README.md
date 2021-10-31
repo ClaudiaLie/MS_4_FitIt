@@ -91,11 +91,11 @@ I have used [MongoDB](https://www.mongodb.com/) and [MongoDB Atlas](https://www.
 [Django’s authentication system](https://docs.djangoproject.com/en/3.1/ref/contrib/auth/) and [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html) are also integrated sets of Django and helped manage authentication, registration and account management.
 The models below are created with dbdiagram.io:
 
-### Data Models
+## Data Models
 
-**Checkout App**
+### Checkout App
 
-| Order Model |
+**Order Model**
 
 | Field | Field Type | Field Options |
 | --- | --- | ---|
@@ -115,6 +115,52 @@ The models below are created with dbdiagram.io:
 | grand_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
 | original_bag | TextField | null=False, blank=False, default='' |
 | stripe_pid | CharField | max_length=254, null=False, blank=False, default='' |
+
+**Order Line Model**
+
+| Field | Field Type | Field Options |
+| --- | :--- | ---|
+| order | ForeignKey | Order, null=False, blank=False, on_delete=models.CASCADE, related_name="lineitems" |
+| product | ForeignKey | Product, null=False, blank=False, on_delete=models.CASCADE |
+| product_size | CharField | max_lenght=2, null=True, blank=True, on_delete=models.CASCADE |
+| quantity | IntegerField | null=False, blank=False, default=0
+| lineitem_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
+
+### Product App
+
+**Category Model**
+
+| Field | Field Type | Field Options |
+| --- | --- | --- |
+| name | CharField | max_length=254 |
+| friendly_name | CharField | max_length=254, null=True, blank=True, |
+
+**Product Model**
+
+| Field | Field Type | Field Options |
+| --- | --- | --- |
+| category | ForeignKey | 'Category', null=True, blank=True, on_delete=models.SET_NULL |
+| sku | CharField | max_length=254, null=True, blank=True |
+| name | CharField | 
+| description | TextField | 
+| has_sizes | BooleanField | default=False, null=False, blank=True |
+| price | DecimalField | max_digits=6, deciaml_places=2 |
+| image_url | URLField | max_digits=1024, null=True, blank=True |
+| image | ImageField | null=True, blank=True |
+
+### Profiles App
+
+**User Profile Model**
+
+| Field | Field Type | Field Options |
+| --- | :--- | ---|
+| user | OneToOneField | User, on_delete=models.CASCADE |
+| default_phone_number | CharField | max_length=20, null=True, blank=True |
+| default_street_address_1 | CharField | max_length=80, null=True, blank=True |
+| default_street_address_2 | CharField | max_length=80, null=True, blank=True |
+| default_town_or_city | CharField | max_length=40, null=True, blank=True |
+| default_postcode | CharField | max_length=20, null=True, blank=True |
+| default_country | CountryField | blank_label="Country", null=True, blank=True |
 
 # Technologies Used
 
