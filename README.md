@@ -93,6 +93,29 @@ The models below are created with dbdiagram.io:
 
 ### Data Models
 
+**Checkout App**
+
+| Order Model |
+
+| Field | Field Type | Field Options |
+| --- | --- | ---|
+| order_number | CharField | max_length=32, null=False, editable=False |
+| user_profile | ForeignKey | UserProfile, on_delete=models.SET_NULL, null=True, blank=False, related_name='orders' |
+| full_name | CharField | max_length=50, null=False, blank=False |
+| email | EmailField | max_length=254, null=False, blank=False |
+| phone_number | CharField | max_length=20, null=True, blank=True |
+| country | CountryField | blank_label="Country *", null=False, blank=False |
+| postcode | CharField | max_length=20, null=True, blank=True |
+| town_or_city | CharField | max_length=40, null=False, blank=False |
+| street_address1 | CharField | max_length=50, null=False, blank=False |
+| street_address2 | CharField | max_length=50, null=False, blank=False |
+| date | DateTimeField | auto_now_add=True |
+| delivery_cost | DecimalField | max_digits=6, decimal_places=2 null=False, default=0 |
+| order_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
+| grand_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
+| original_bag | TextField | null=False, blank=False, default='' |
+| stripe_pid | CharField | max_length=254, null=False, blank=False, default='' |
+
 # Technologies Used
 
 **Core Coding**
