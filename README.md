@@ -141,12 +141,23 @@ The models below are created with dbdiagram.io:
 | --- | --- | --- |
 | category | ForeignKey | 'Category', null=True, blank=True, on_delete=models.SET_NULL |
 | sku | CharField | max_length=254, null=True, blank=True |
-| name | CharField | 
+| name | CharField | max_length=254 |
 | description | TextField | 
 | has_sizes | BooleanField | default=False, null=False, blank=True |
 | price | DecimalField | max_digits=6, deciaml_places=2 |
 | image_url | URLField | max_digits=1024, null=True, blank=True |
 | image | ImageField | null=True, blank=True |
+
+**Product Review**
+| Field | Field Type | Field Options |
+| --- | --- | --- |
+| product | ForeignKey | Product, related_name='reviews', on_delete=models.CASCADE |
+| user | ForeignKey | User, related_name='reviews', on_delete=models.CASCADE |
+| content | TextField | blank=True, null=True |
+| stars | IntegerField |
+| date_added | DateTimeField | auto_now_add=True |
+
+
 
 ### Profiles App
 
@@ -297,3 +308,4 @@ Your database should now be set up on Heroku.
 - Slack community has been, as always, an amazing source for bug fixes and to solve any doubt.
 - Stack Overflow helped me to solve the cards elements responsiveness.
 - The Deployment section of this README.md is inspired by [mion93](https://github.com/mion93/xeption-ms4#readme) repository.
+- The product review has been created following [Code With Stein](https://github.com/SteinOveHelset/saulgadgets).

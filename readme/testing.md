@@ -22,7 +22,19 @@
 16. Each time a product is added to the Shopping Bag, the total amount will update in the Bag page, showing in detail the price for each item, the Delivery cost and Subtotal;
 17. Clicking the top right bag icon, the User will be directed to the Shopping Bag page, which displays all the products in the Bag;
 18. The quantity of the items in the bag is editable, the User can decrease or increase, with a plus and minus buttons, the amount of the same item in the bag, or remove it completely with the Remove action link;
-19. The Checkout page contains a form that requires a valid credit card to continue with the purchase;
+19. The Checkout page contains a form that requires a valid credit card to continue with the purchase. Use any of these test cards to simulate a payment:
+
+    - Payment succeeds
+
+        4242 4242 4242 4242
+    - Payment requires authentication
+
+        4000 0025 0000 3155
+    - Payment is declined
+
+        4000 0000 0000 9995
+
+
 20. A message will show up on the form if the User inserts an invalid credit card number;
 21. When the purchase is completed successfully, a toast message will show up on the top of the page, while the user is redirected to a summary of the order completed;
 22. After every successful purchase, the shopping bag displayed on the top right of the page will reset its total to zero and it will be empty;
