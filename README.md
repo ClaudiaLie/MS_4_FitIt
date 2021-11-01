@@ -153,10 +153,11 @@ The schema below has been created with dbdiagram.io:
 **Product Review**
 | Field | Field Type | Field Options |
 | --- | --- | --- |
-| product | ForeignKey | Product, related_name='reviews', on_delete=models.CASCADE |
-| user | ForeignKey | User, related_name='reviews', on_delete=models.CASCADE |
-| content | TextField | blank=True, null=True |
-| stars | IntegerField |
+| product | ForeignKey | Product, related_name='reviews', null=True, blank=True, on_delete=models.SET_NULL |
+| user | ForeignKey | User, null=True, blank=True, on_delete=models.CASCADE |
+| title | CharField | max_length=254, default='Review' |
+| content | TextField | max_length=254, blank=True |
+| rating | IntegerField | choices=rating_selection, default=3 |
 | date_added | DateTimeField | auto_now_add=True |
 
 
@@ -173,14 +174,6 @@ The schema below has been created with dbdiagram.io:
 | default_town_or_city | CharField | max_length=40, null=True, blank=True |
 | default_postcode | CharField | max_length=20, null=True, blank=True |
 | default_country | CountryField | blank_label="Country", null=True, blank=True |
-
-### Newsletter App
-
-**Subscriber Model**
-| Field | Field Type | Field Options |
-| --- | :--- | ---|
-| email | EmailField | max_length=245 |
-| date_added | DateTimeFiels | auto_now_add=True |
 
 # Technologies Used
 
@@ -314,7 +307,7 @@ Your database should now be set up on Heroku.
 
 # Credits
 - Code Institute course material was the main inspiration for this project.
-- Slack community has been, as always, an amazing source for bug fixes and to solve any doubt.
+- Slack community has been, as always, an amazing source for bug fixes and to solve any doubt, a special mention to [Harry Leepz](https://github.com/Harry-Leepz) who helped with my models.
 - Stack Overflow helped me to solve the cards elements responsiveness.
 - The Deployment section of this README.md is inspired by [mion93](https://github.com/mion93/xeption-ms4#readme) repository.
-- The product review and the newsletter app has been created following [Code With Stein](https://github.com/SteinOveHelset/saulgadgets).
+- The Product Review model is inspired by [Harry Leepz](https://github.com/Harry-Leepz/Nourish-and-Lift) and [Code With Stein](https://github.com/SteinOveHelset/saulgadgets).
