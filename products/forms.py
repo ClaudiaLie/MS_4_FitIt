@@ -1,5 +1,12 @@
 from django import forms
-from .models import Product, Category
+from .models import Product, Category, ProductReview
+
+
+class ReviewForm(forms.ModelForm):
+
+    class Meta:
+        model = ProductReview
+        exclude = ('product', 'user', 'date_added')
 
 
 class ProductForm(forms.ModelForm):

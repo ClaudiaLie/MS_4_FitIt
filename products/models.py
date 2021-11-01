@@ -8,7 +8,7 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
     name = models.CharField(max_length=254)
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    friendly_name = models.CharField(max_length=254)
 
     def __str__(self):
         return self.name
@@ -19,7 +19,7 @@ class Category(models.Model):
 
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
-    sku = models.CharField(max_length=254, null=True, blank=True)
+    sku = models.CharField(max_length=254)
     name = models.CharField(max_length=254)
     description = models.TextField()
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
@@ -30,21 +30,34 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-    def get_rating(self):
-        total = sum(int(review['stars']) for review in self.reviews.values())
+# Inspired by Harry-Leepz from Slack #
 
-        if self.reviews.count() > 0:
-            return total / self.reviews.count()
-        else:
-            return 0
-
-# Inspired by SteinOveHelset https://github.com/SteinOveHelset/saulgadgets #
 
 class ProductReview(models.Model):
-    product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
-    user = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
+    class Meta:
+        ordering = ['-date_added']
 
-    content = models.TextField(blank=True, null=True)
-    stars = models.IntegerField()
+    rating_selection = (
+        (5, '5'),
+        (4, '4'),
+        (3, '3'),
+        (2, '2'),
+        (1, '1'),
+    )
 
+    product = models.ForeignKey(Product,
+                                related_name='reviews',
+                                null=True,
+                                blank=True,
+                                on_delete=models.SET_NULL)
+    user = models.ForeignKey(User,
+                             null=True,
+                             blank=True,
+                             on_delete=models.CASCADE)
+    title = models.CharField(max_length=254, default='Review')
+    content = models.TextField(max_length=254, blank=True)
+    rating = models.IntegerField(choices=rating_selection, default=3)
     date_added = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
