@@ -128,14 +128,6 @@ h1.display-4.logo-font{
     text-transform: uppercase;
 }
 
-#prices-container, #bag-container {
-    margin-bottom: 27em;
-}
-
-#product-container {
-    margin-bottom: 28em;
-}
-
 .page-footer {
     background-color: #BBB7B9 !important;
     min-height: 2.5rem;

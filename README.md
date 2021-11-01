@@ -317,4 +317,4 @@ Your database should now be set up on Heroku.
 - Slack community has been, as always, an amazing source for bug fixes and to solve any doubt.
 - Stack Overflow helped me to solve the cards elements responsiveness.
 - The Deployment section of this README.md is inspired by [mion93](https://github.com/mion93/xeption-ms4#readme) repository.
-- The product review has been created following [Code With Stein](https://github.com/SteinOveHelset/saulgadgets).
+- The product review and the newsletter app has been created following [Code With Stein](https://github.com/SteinOveHelset/saulgadgets).
