@@ -18,6 +18,8 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from newsletter.api import api_add_subscriber
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
@@ -28,4 +30,5 @@ urlpatterns = [
     path('prices/', include('prices.urls')),
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
+    path('api/add_subscriber/', api_add_subscriber, name='api_add_subscriber'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

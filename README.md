@@ -89,7 +89,9 @@ In the development of Fit It, I have used SQLite3 database as part of Django fra
 
 I have used [MongoDB](https://www.mongodb.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create and export my own fixtures of the products and categories.
 [Django’s authentication system](https://docs.djangoproject.com/en/3.1/ref/contrib/auth/) and [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html) are also integrated sets of Django and helped manage authentication, registration and account management.
-The models below are created with dbdiagram.io:
+The schema below has been created with dbdiagram.io:
+
+![alt text](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/database-fitit.jpg?raw=true)
 
 ## Data Models
 
@@ -158,7 +160,6 @@ The models below are created with dbdiagram.io:
 | date_added | DateTimeField | auto_now_add=True |
 
 
-
 ### Profiles App
 
 **User Profile Model**
@@ -172,6 +173,14 @@ The models below are created with dbdiagram.io:
 | default_town_or_city | CharField | max_length=40, null=True, blank=True |
 | default_postcode | CharField | max_length=20, null=True, blank=True |
 | default_country | CountryField | blank_label="Country", null=True, blank=True |
+
+### Newsletter App
+
+**Subscriber Model**
+| Field | Field Type | Field Options |
+| --- | :--- | ---|
+| email | EmailField | max_length=245 |
+| date_added | DateTimeFiels | auto_now_add=True |
 
 # Technologies Used
 
