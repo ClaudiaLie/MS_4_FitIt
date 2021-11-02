@@ -8,16 +8,14 @@ The application uses Python, Django, JavaScript and CSS as main technologies.
 
 ## Table of Contents
 - [User Experience](#user-experience)
-    * [Strategy Plane](#strategy-plane)
-    * [Scope Plane](#scope-plane)
+  * [Strategy Plane](#strategy-plane)
+  * [Scope Plane](#scope-plane)
     * [User stories](#user-stories)
-    * [Skeleton Plane](#skeleton-plane)
-    * [Wireframes](#wireframes)
-    * [Design](#design)
-        + [Images](#images)
-        + [Colors](#colors)
-- [Database Schema](#database-schema)
-    * [Data Models](#data-models)
+  * [Skeleton Plane](#skeleton-plane)
+  * [Wireframes](#wireframes)
+  * [Design](#design)
+    + [Images](#images)
+    + [Colors](#colors)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -84,6 +82,7 @@ An excellent source to get inspired was [Canva](https://www.canva.com/colors/col
 
 With an extra touch of orange #fb8b3c to symbolize strength, power and energy.
 
+<<<<<<< HEAD
 # Database Schema
 In the development of Fit It, I have used SQLite3 database as part of Django framework and Heroku PostGres to handle the database for the production version of the website.
 
@@ -183,6 +182,8 @@ The schema below has been created with [dbdiagram.io](https://dbdiagram.io/):
 | name | CharField | max_length=50, null=False, blank=False |
 | done | BooleanField | null=False, blank=False, default=False |
 
+=======
+>>>>>>> parent of 70dd5b6 (first draft of the database section in README.md)
 # Technologies Used
 
 **Core Coding**
