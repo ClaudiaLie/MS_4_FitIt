@@ -89,7 +89,7 @@ In the development of Fit It, I have used SQLite3 database as part of Django fra
 
 I have used [MongoDB](https://www.mongodb.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create and export my own fixtures of the products and categories.
 [Django’s authentication system](https://docs.djangoproject.com/en/3.1/ref/contrib/auth/) and [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html) are also integrated sets of Django and helped manage authentication, registration and account management.
-The schema below has been created with dbdiagram.io:
+The schema below has been created with [dbdiagram.io](https://dbdiagram.io/):
 
 ![alt text](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/media/readme_img/database-fitit.jpg?raw=true)
 
@@ -217,7 +217,11 @@ The schema below has been created with dbdiagram.io:
 
 A full manual testing file can be found [here.](https://github.com/ClaudiaLie/MS_4_FitIt/blob/main/readme/testing.md)
 
-- For python code validation I have been using [pep8 online](http://pep8online.com/)
+- For python code validation I have been using [pep8 online](http://pep8online.com/): 
+
+    + Lines left too long just when breaking them would have compromised the code integrity.
+
+
 - For HTML validation I have used [validatorW3](https://validator.w3.org/)
 - For CSS validation I have used [jigsaw.W3](https://jigsaw.w3.org/css-validator/)
 - For responsiveness testing I have used Google DevTools
@@ -315,7 +319,7 @@ Your database should now be set up on Heroku.
 
 # Credits
 - Code Institute course material was the main inspiration for this project.
-- Slack community has been, as always, an amazing source for bug fixes and to solve any doubt, a special mention to [Harry Leepz](https://github.com/Harry-Leepz) who helped with my models.
+- Slack community has been, as always, an amazing source for bug fixes, a special mention to [Harry Leepz](https://github.com/Harry-Leepz) who helped with my models.
 - Stack Overflow helped me to solve the cards elements responsiveness.
 - The Deployment section of this README.md is inspired by [mion93](https://github.com/mion93/xeption-ms4#readme) repository.
 - The Product Review model is inspired by [Harry Leepz](https://github.com/Harry-Leepz/Nourish-and-Lift) and [Code With Stein](https://github.com/SteinOveHelset/saulgadgets).
