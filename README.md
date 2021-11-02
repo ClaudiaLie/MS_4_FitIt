@@ -151,6 +151,7 @@ The schema below has been created with dbdiagram.io:
 | image | ImageField | null=True, blank=True |
 
 **Product Review**
+
 | Field | Field Type | Field Options |
 | --- | --- | --- |
 | product | ForeignKey | Product, related_name='reviews', null=True, blank=True, on_delete=models.SET_NULL |
@@ -174,6 +175,13 @@ The schema below has been created with dbdiagram.io:
 | default_town_or_city | CharField | max_length=40, null=True, blank=True |
 | default_postcode | CharField | max_length=20, null=True, blank=True |
 | default_country | CountryField | blank_label="Country", null=True, blank=True |
+
+**Goal Model**
+
+| Field | Field Type | Field Options |
+| --- | :--- | ---|
+| name | CharField | max_length=50, null=False, blank=False |
+| done | BooleanField | null=False, blank=False, default=False |
 
 # Technologies Used
 
