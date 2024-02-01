@@ -1,5 +1,4 @@
 # Fit It
-[Fit It Website](https://fit-it-claudia.herokuapp.com/)
 
 FitIt is the fourth and last project submission for the Full Stack Frameworks Milestone Project by Code Institute. 
 
@@ -82,7 +81,7 @@ An excellent source to get inspired was [Canva](https://www.canva.com/colors/col
 
 With an extra touch of orange #fb8b3c to symbolize strength, power and energy.
 
-<<<<<<< HEAD
+
 # Database Schema
 In the development of Fit It, I have used SQLite3 database as part of Django framework and Heroku PostGres to handle the database for the production version of the website.
 
